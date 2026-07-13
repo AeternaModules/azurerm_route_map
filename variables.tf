@@ -40,7 +40,7 @@ EOT
         route_prefix    = optional(list(string))
       })))
       name                 = string
-      next_step_if_matched = optional(string) # Default: "Unknown"
+      next_step_if_matched = optional(string)
     })))
   }))
 }
